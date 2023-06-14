@@ -43,7 +43,7 @@ def generate_ngrams_without_stopwords(tokens, n):
 def get_wordstat_data(n_grams):
     wordstat_url = 'http://xmlriver.com/wordstat/json'
     user_id = '2649'
-    key = '34ef24652b78ed0abf1707b67f914850bad01b48'
+    key = ''
 
     wordstat_results = []
     unique_n_grams = set(n_grams)
